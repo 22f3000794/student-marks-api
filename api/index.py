@@ -13,7 +13,7 @@ app.add_middleware(
     allow_origins=["*"],  # Allow all origins
     allow_credentials=True,
     allow_methods=["GET"],  # Only allow GET requests
-    allow_headers=["*"],
+    allow_headers=["https://exam.sanand.workers.dev/tds-2025-05-ga2"],
 )
 
 # Get the directory of the current file
